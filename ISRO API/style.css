@@ -1,0 +1,57 @@
+
+.container{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 100px;
+	position: relative;
+
+}
+#items{
+	justify-content: space-around;
+	background-color: purple;
+    color: white;
+    font-weight: bold;
+    width: 500px;
+    cursor: pointer;
+}
+body,html{
+	background-image: url(https://w0.peakpx.com/wallpaper/247/313/HD-wallpaper-shuttle-rocket-space.jpg);
+	
+	
+	background-size:cover;
+}
+.p-2:hover{
+	background-color: pink;
+}
+h1{
+  color:white;
+  text-align: center;
+  margin-top: 10px;
+}
+#flag{
+	height: 40px;
+	width: 60px;
+	
+}
+#info1{
+text-align: center;
+overflow: auto;
+margin-top: 20px;
+
+}
+#info{
+	text-align: center;
+	margin-top: 10px;
+
+	padding: 20px;
+
+}
+.list-group-item
+{
+	margin-top: 5px;
+	background-color: lightblue;
+	font-size: 20px;
+	font-weight: bold;
+	text-align:center;
+
+}
